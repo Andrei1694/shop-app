@@ -2,8 +2,7 @@ function App() {
   return (
     <div className="App">
     <div>
-
-      asd
+      <h1>Shop App</h1>
     </div>
     </div>
   );
