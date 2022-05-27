@@ -1,5 +1,5 @@
 {
-  "name": "shop-app",
+  "name": "nasa-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,17 +14,7 @@
     "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
     "test": "npm test --prefix server && npm test --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Andrei1694/shop-app.git"
-  },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Andrei1694/shop-app/issues"
-  },
-  "homepage": "https://github.com/Andrei1694/shop-app#readme",
-  "dependencies": {
-    "dotenv": "^16.0.1"
-  }
+  "license": "ISC"
 }

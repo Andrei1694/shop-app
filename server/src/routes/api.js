@@ -1,9 +1,12 @@
 const express = require('express');
-const { path } = require('express/lib/application');
-const userRoutes = require('./user.routes');
+
+const planetsRouter = require('./planets/planets.router');
+const launchesRouter = require('./launches/launches.router');
 
 const api = express.Router();
 
-api.use(userRoutes)
+// api.use('/planets', planetsRouter);
+// api.use('/launches', launchesRouter);
+api.use('/product', planetsRouter);
 
 module.exports = api;
